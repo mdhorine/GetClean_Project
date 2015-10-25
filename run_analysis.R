@@ -4,7 +4,7 @@ library(dplyr)
 activities <- read.table("data/activity_labels.txt", col.names = c("ActivityID", "ActivityName"))
 features <- read.table("data/features.txt", col.names = c("FeatureID", "FeatureName"))
 
-# Clean up feature names prior to using as variable names.  Variable names were 
+# Clean up feature names prior to using as variable names.  Variable names were chosen to provide readibility, and so may differ from some normal conventions.  Initial part is time or freq, which are the two dimensions. Variable names then continue as Pascal Case for readibility over multiple words.  Finally, _X, _Y, or _Z is used to indicate the axis of the variable.
 features$FeatureName <- gsub("\\-|\\(\\)", "", features$FeatureName) 
 features$FeatureName <- gsub("mean", "Mean", features$FeatureName)
 features$FeatureName <- gsub("std", "Std", features$FeatureName)
