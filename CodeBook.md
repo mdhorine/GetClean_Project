@@ -21,13 +21,83 @@ Variables were renamed to provide maximum readibility.  Initial part of the vari
 
 Please see the original documentation for information on each of the individual values.
 
-The set of variables that were estimated (and kept for this assignment) from these signals are: 
+The set of variables that were estimated (and kept for this assignment) from these signals are those that include: 
 
 * mean(): Mean value
 * std(): Standard deviation
 
-Other estimates have been removed for the purpose of this excercise.
+Other estimates have been removed for the purpose of this excercise, including those including the terms meanfreq, gravitymean, and angle.
 
 Note: features are normalized and bounded within [-1,1].
 
 The resulting variable names are of the following form: time_BodyAccMean_X, which corresponds to the mean value of tBodyAccMEan-X by subject.
+
+The final list of included variables is as follows:
+* SubjectID                    
+* ActivityName                 
+* time_BodyAccMean_X          
+* time_BodyAccMean_Y           
+* time_BodyAccMean_Z           
+* time_BodyAccStd_X           
+* time_BodyAccStd_Y            
+* time_BodyAccStd_Z            
+* time_GravityAccMean_X       
+* time_GravityAccMean_Y        
+* time_GravityAccMean_Z        
+* time_GravityAccStd_X        
+* time_GravityAccStd_Y         
+* time_GravityAccStd_Z         
+* time_BodyAccJerkMean_X      
+* time_BodyAccJerkMean_Y       
+* time_BodyAccJerkMean_Z       
+* time_BodyAccJerkStd_X       
+* time_BodyAccJerkStd_Y        
+* time_BodyAccJerkStd_Z        
+* time_BodyGyroMean_X         
+* time_BodyGyroMean_Y          
+* time_BodyGyroMean_Z          
+* time_BodyGyroStd_X          
+* time_BodyGyroStd_Y           
+* time_BodyGyroStd_Z           
+* time_BodyGyroJerkMean_X     
+* time_BodyGyroJerkMean_Y      
+* time_BodyGyroJerkMean_Z      
+* time_BodyGyroJerkStd_X      
+* time_BodyGyroJerkStd_Y       
+* time_BodyGyroJerkStd_Z       
+* time_BodyAccMagMean         
+* time_BodyAccMagStd           
+* time_GravityAccMagMean       
+* time_GravityAccMagStd       
+* time_BodyAccJerkMagMean      
+* time_BodyAccJerkMagStd       
+* time_BodyGyroMagMean        
+* time_BodyGyroMagStd          
+* time_BodyGyroJerkMagMean     
+* time_BodyGyroJerkMagStd     
+* freq_BodyAccMean_X           
+* freq_BodyAccMean_Y           
+* freq_BodyAccMean_Z          
+* freq_BodyAccStd_X            
+* freq_BodyAccStd_Y            
+* freq_BodyAccStd_Z           
+* freq_BodyAccJerkMean_X       
+* freq_BodyAccJerkMean_Y       
+* freq_BodyAccJerkMean_Z      
+* freq_BodyAccJerkStd_X        
+* freq_BodyAccJerkStd_Y        
+* freq_BodyAccJerkStd_Z       
+* freq_BodyGyroMean_X          
+* freq_BodyGyroMean_Y          
+* freq_BodyGyroMean_Z         
+* freq_BodyGyroStd_X           
+* freq_BodyGyroStd_Y           
+* freq_BodyGyroStd_Z          
+* freq_BodyAccMagMean          
+* freq_BodyAccMagStd           
+* freq_BodyBodyAccJerkMagMean 
+* freq_BodyBodyAccJerkMagStd   
+* freq_BodyBodyGyroMagMean     
+* freq_BodyBodyGyroMagStd     
+* freq_BodyBodyGyroJerkMagMean 
+* freq_BodyBodyGyroJerkMagStd 
